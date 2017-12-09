@@ -1,0 +1,30 @@
+{
+  "name": "ClipboardClear",
+  "version": "1.0.0",
+  "description": "Easily clear the format of your clipboard text with Clear Clipboard Text Format.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/LumingYin/ClipboardClear",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.7.8"
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.5",
+    "electron-main-notification": "^1.0.1",
+    "electron-store": "^1.3.0"
+  },
+  "build": {
+    "appId": "com.kay.clipboardclear-electron",
+  }
+}
